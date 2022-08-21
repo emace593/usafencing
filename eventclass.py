@@ -1,6 +1,6 @@
 import pandas as pd
 
-RATED_FENCERS_REQUIRED = {'E1':None,
+RATED_FENCERS_REQUIRED = {'E1':{},
                             'D1':{'E':4},
                             'C1':{'C':2,'D':2,'E':2},
                             'C2':{'D':4,'E':4},

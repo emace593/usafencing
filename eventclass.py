@@ -1,6 +1,7 @@
 import pandas as pd
 
-RATED_FENCERS_REQUIRED = {'E1':{},
+RATED_FENCERS_REQUIRED = { 'X':{},
+                            'E1':{},
                             'D1':{'E':4},
                             'C1':{'C':2,'D':2,'E':2},
                             'C2':{'D':4,'E':4},
@@ -17,7 +18,8 @@ RATED_FENCERS_REQUIRED = {'E1':{},
 SIZES_REQUIRED = {64:['A4','A3','B3','C3'],
                 25:['A2','B2','C2'],
                 15:['A1','B1','C1','D1'],
-                6:['E1']}
+                6:['E1'],
+                0:['X']}
 
 def has_minimum(classification,list_of_participant_ratings):
     required = RATED_FENCERS_REQUIRED[classification]

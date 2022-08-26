@@ -1,4 +1,5 @@
 pandas
 seaborn
 matplotlib
-natsort
+plotly
+kaleido
